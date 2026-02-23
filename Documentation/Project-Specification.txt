@@ -1,0 +1,72 @@
+Environmental Monitoring Dashboard (COIL)
+
+A community environmental group has asked your team to create a web-based
+environmental monitoring system. They have sensor readings (including realistic
+sample/simulated data) and need a dashboard that helps people understand current
+conditions, spot issues, and respond appropriately.
+System outline (core)
+
+Your solution should produce a single integrated system with:
+1. Community Dashboard (public-facing web app)
+2. Data Management & Alerts (validation, storage, alert rules)
+COIL workshops (Weeks 1–2 only) **
+
+In Weeks 1–2, you will take part in facilitated Collaborative Online International
+Learning (COIL) workshops. These sessions will help your team:
+• agree a specific environmental focus (e.g., flood risk, drought, soil quality, heat)
+• identify stakeholders and plan requirements gathering
+• finalise the scope, features, and delivery plan for your prototype
+
+Community Dashboard (core)
+A web interface for residents and community members.
+It should allow people to:
+• view current readings for your chosen environmental focus
+(e.g., water level, air quality, temperature, soil moisture)
+• see a clear status (e.g., normal / warning / critical)
+• view simple historical trends (basic charts over time)
+• view readings by site/location (e.g., site list; map view if appropriate)
+• read active alerts with a short explanation of what they mean
+
+Key accessibility: clear text, good contrast, keyboard usability, mobile-friendly layout.
+
+Data Management & Alerts (core)
+This section receives/loads readings, checks them, stores them, and triggers alerts.
+It should:
+• validate incoming data (e.g., missing values, unexpected ranges, duplicates)
+• store time-stamped readings for later retrieval
+• keep basic sensor/site metadata (e.g., location, type, status)
+• implement alert rules (thresholds + severity)
+• maintain an alert log/history (what triggered, when, severity)
+
+Storage approach: teams should justify their storage approach and show how it
+supports historical trends and alert review.
+
+Extensions and improvements
+To reach the highest marks, implement one or more integrated extensions.
+Suggested main extension: Analysis & Reporting Portal
+A separate view for researchers/decision-makers that builds on the same stored data
+and alert history, for example:
+• filters (date range, location/site, sensor type)
+• trend summaries and comparisons across sites
+• export/download (e.g., CSV)
+Other extension ideas (choose one or design your own):
+• offline/low-bandwidth mode
+• more advanced alert logic (e.g., rolling averages, persistence rules)
+• partial multi-language support
+
+** COIL is Weeks 1–2 only
+During those two weeks you will take part in four facilitated online workshops with
+partner universities (CS students from China & South Africa). After Week 2, you
+continue as a normal COMP2850 project using your teams agreed scope and plan.
+
+By the end of Week 2 your team should have:
+• a chosen topic and clear stakeholder focus
+• a short requirements summary (what matters, why, for whom)
+• a first-pass design (sketches/wireframes + simple system diagram)
+• an agreed collaboration plan (tools, roles, meeting rhythm, workload approach)
+• an initial backlog and delivery plan for the remaining project weeks
+
+This work sits within a funded research project on community-centred environmental
+monitoring and international collaboration. Where applicable, you will follow the
+project’s agreed participation procedures (e.g., consent and recording during
+workshops), with opportunities for publication authorship and further participation.
